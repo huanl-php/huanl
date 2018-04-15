@@ -1,0 +1,15 @@
+{
+  "name": "huanl-php/huanl",
+  "description": "this a php framework",
+  "home": "https://github.com/huanl-php",
+  "authors": [
+    {
+      "name": "CodFrm",
+      "email": "code.farmer@qq.com",
+      "home": "https://blog.icodef.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  }
+}
