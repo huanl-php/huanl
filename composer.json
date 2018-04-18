@@ -1,15 +1,23 @@
 {
-  "name": "huanl-php/huanl",
+  "name": "huanlphp/huanl",
   "description": "this a php framework",
-  "home": "https://github.com/huanl-php",
+  "homepage": "https://github.com/huanl-php",
+  "support": {
+    "issues": "https://github.com/huanl-php/huanl/issues"
+  },
   "authors": [
     {
       "name": "CodFrm",
       "email": "code.farmer@qq.com",
-      "home": "https://blog.icodef.com"
+      "homepage": "https://blog.icodef.com"
     }
   ],
   "require": {
-    "php": "^7.1"
-  }
+    "php": "^7.1",
+    "huanlphp/core": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.1"
+  },
+  "minimum-stability": "dev"
 }
