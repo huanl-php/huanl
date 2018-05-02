@@ -13,6 +13,7 @@ $app = new HuanL\Core\Application(
 );
 
 /**
- * 发送请求
+ * 处理并发送请求请求
  */
+$app->send();
 
