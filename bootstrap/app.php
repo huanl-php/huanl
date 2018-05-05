@@ -15,5 +15,5 @@ $app = new HuanL\Core\Application(
 /**
  * 处理并发送请求请求
  */
-$app->send();
+$app->run();
 
