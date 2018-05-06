@@ -1,6 +1,6 @@
 <?php
 
-use HuanL\Core\ServiceProvider\Route;
+use HuanL\Core\Facade\Route;
 
 Route::get('/', function () {
     return 'Hello,World!';
