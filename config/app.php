@@ -2,6 +2,7 @@
 
 
 return [
+    'debug' => true,
     /**
      * 初始启动组件
      */
