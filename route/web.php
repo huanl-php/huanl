@@ -7,11 +7,13 @@ Route::get('/', function () {
 });
 
 Route::get('/view', function () {
-    $view = new \HuanL\Viewdeal\View(app('path') . '/app/view/test.html',new viewController());
-    $view->compiled();
-    return "hha";
+    $view = new \HuanL\Viewdeal\View(app('path') . '/app/view/test.html', new viewController());
+    $v1 = '123';
+    $view->bindValue('v1', $v1);
+    return $view->execute();
 });
 
 class  viewController {
-    public $test = 1;
+    public $test = ['ma' => 123];
+    public $ha = 'qwe';
 }
