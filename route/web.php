@@ -16,4 +16,7 @@ Route::get('/view', function () {
 class  viewController {
     public $test = ['ma' => 123];
     public $ha = 'qwe';
+    public function shuchu(){
+        return '测试啦';
+    }
 }
