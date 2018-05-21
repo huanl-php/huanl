@@ -16,6 +16,12 @@ return [
         /**
          * 将核心的路由组件替换成自定义的组件
          */
-        \HuanL\Core\Components\RouteComponents::class => \App\RouteComponents::class
+        \HuanL\Core\Components\RouteComponents::class => \App\RouteComponents::class,
+
+        /**
+         * 自定义数据库类型
+         */
+        'dbconnect' => \HuanL\Db\Driver\MySQL\MySQLDBConnect::class,
+        'db' => \HuanL\Db\SQLDb::class
     ]
 ];
