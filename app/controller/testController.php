@@ -11,7 +11,7 @@ class testController {
 
     /**
      *
-     * @route get,post /test/ha/{emm?}$
+     * @route get,post /tests/ha/{emm?}$
      * @return string
      */
     public function hah($emm) {

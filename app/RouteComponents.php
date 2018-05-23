@@ -19,6 +19,11 @@ class RouteComponents extends Components {
         $this->webRoute();
     }
 
+    public function cacheRoute() {
+        //缓存的路由,可以吧需要缓存的路由写在这里
+        Route::get('/{controller}/{action}')->setNamespace('App\Controller');
+    }
+
     public function webRoute() {
         Route::group('web', function () {
             require_once $this->app['path.route'] . '/web.php';
