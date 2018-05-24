@@ -8,5 +8,5 @@
 /**
  * 引入引导文件,开始一次请求处理
  */
-require_once './bootstrap/app.php';
+require_once './../bootstrap/app.php';
 

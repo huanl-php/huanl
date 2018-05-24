@@ -1,8 +1,9 @@
 <?php
+
 /**
  * 引入composer的自动加载文件
  */
-require './../vendor/autoload.php';
+require_once './../vendor/autoload.php';
 
 /**
  * 加载框架核心内容
