@@ -3,6 +3,7 @@
 require_once './../vendor/autoload.php';
 $Container = new \HuanL\Container\Container();
 $Container->singleton(\HuanL\Request\Request::class);
+/** @var \HuanL\Routing\Routing $route */
 $route = $Container->make(\HuanL\Routing\Routing::class);
 $route->resolveControllerFile(
     realpath('./../app/controller')

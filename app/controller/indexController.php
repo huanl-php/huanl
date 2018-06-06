@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use HuanL\Core\App\Controller;
+use HuanL\Core\App\Controller\Controller;
 
 /**
  * Class testController
@@ -16,4 +16,5 @@ class indexController extends Controller {
     public function index() {
         return $this->view();
     }
+
 }
