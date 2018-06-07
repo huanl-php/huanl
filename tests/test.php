@@ -22,6 +22,9 @@ $route->group('test', function (\HuanL\Routing\Routing $group) {
     $group->get('/group', 'testController@asdqw');
 }, ['namespace' => 'App\Controller']);
 //解析路由
+$route->get('/model',function(){
+    $v=new \Tests\VerifyTestModel();
+});
 echo $route->resolve();
 
 class routeTestClass {
