@@ -2,8 +2,10 @@
 
 namespace App\Controller;
 
+use App\model\bookDbModel;
 use App\Model\VerifyTestModel;
 use HuanL\Core\App\Controller\Controller;
+use HuanL\Core\App\Model\DbModel;
 
 /**
  * Class testController
@@ -27,5 +29,10 @@ class indexController extends Controller {
             return ['code' => 0, 'msg' => 'success'];
         }
         return ['code' => -1, 'msg' => $v->getLastError()];
+    }
+
+
+    public function dbmodel() {
+        $v = new bookDbModel('book');
     }
 }
