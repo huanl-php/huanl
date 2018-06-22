@@ -2,7 +2,7 @@
 
 use HuanL\Core\Facade\Route;
 
-Route::get('/', function () {
+Route::get('/hello', function () {
     return 'Hello,World!';
 });
 
